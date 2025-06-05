@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "Login API Tests",
+    "_postman_id": "1234-5678-9012-3456",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Login API",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"username\": \"test_user\", \"password\": \"secure_password\" }"
+        },
+        "url": {
+          "raw": "https://example.com/api/login",
+          "protocol": "https",
+          "host": ["example", "com"],
+          "path": ["api", "login"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
